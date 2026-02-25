@@ -1,0 +1,39 @@
+.root {
+    -fx-background-color: #5e90af;
+}
+
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: #ffffff;
+}
+
+.image-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.image-button:hover {
+    -fx-cursor: hand;
+}
+
+.image-button:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.image-button:hover {
+    -fx-opacity: 0.8;
+}
+
+.number-field {
+    -fx-pref-width: 60px;
+    -fx-font-size: 14px;
+    -fx-alignment: center;
+
+    -fx-background-color: white;
+    -fx-border-color: #d3dfe7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 4 6 4 6;
+}
